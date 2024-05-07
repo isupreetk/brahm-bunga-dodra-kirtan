@@ -37,7 +37,7 @@ function HomePage() {
   let [play, setPlay] = useState(false);
   let [isLoading] = useState(false);
   let [error] = useState(null);
-  let entriesPerPage = 100;
+  let entriesPerPage = 150;
   let [timeoutHistory, setTimeoutHistory] = useState([]);
 
   const resetSearch = () => {
